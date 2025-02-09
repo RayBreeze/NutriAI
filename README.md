@@ -1,4 +1,5 @@
 # NutriAI
+The web-site link is https://nutriai-jbux.onrender.com
 NutriAI analyzes user input, applies AI-driven nutritional algorithms, and provides personalized diet recommendations based on verified health databases.
 Working of NutriAI
 1. User Input & Analysis – Users enter dietary preferences, health goals, and current nutrition data.
