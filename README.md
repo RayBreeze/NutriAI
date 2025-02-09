@@ -74,7 +74,7 @@ streamlit run NutriAI_bot.py
 
 ## 👥 Team
 
-Created by **Stack UnderFlow** (1st Year CSE)
+Created by **Stack UnderFlow** (1st Year CSE & IT)
 Government College of Engineering and Ceramic Technology, Kolkata
 
 ## 📝 License
