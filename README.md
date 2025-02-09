@@ -7,7 +7,7 @@
 > Your AI-powered personal nutritionist available 24/7
 
 ## 🚀 Live Demo
-Try NutriAI now: [https://nutriai-jbux.onrender.com](https://nutriai-jbux.onrender.com)
+Try NutriAI now: [Click here](https://nutriai-ru7v.onrender.com/)
 
 ## ✨ Features
 
