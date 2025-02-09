@@ -17,7 +17,7 @@ def main():
     st.sidebar.title("Contact")
     st.sidebar.info(
         """
-        Created by Stack UnderFlow [ 1st Year CSE ]
+        Created by Stack UnderFlow [ 1st Year CSE & IT ]
 
         Government College of Engineering and Ceramic Technology, Kolkata
         """
