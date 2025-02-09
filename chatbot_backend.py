@@ -12,16 +12,16 @@ client = ChatCompletionsClient(
     endpoint=endpoint,
     credential=AzureKeyCredential(token),
 )
+def get_nutrition_response(user_prompt):
+    response = client.complete(
+        messages=[
+            SystemMessage(content="Your name is NutriAI. An AI based Nutritionist who will response only on nutritional based queries. Be happy and Cheerful. Any other query will not be treated..."),
+            UserMessage(content=user_prompt),
+        ],
+        temperature=1.0,
+        top_p=1.0,
+        max_tokens=1000,
+        model=model_name
+    )
 
-response = client.complete(
-    messages=[
-        SystemMessage(content="Your name is NutriAI. An AI based Nutritionist who will response only on nutritional based queries. Any other query will not be treated..."),
-        UserMessage(content="What is the nutritional value of an apple?"),
-    ],
-    temperature=1.0,
-    top_p=1.0,
-    max_tokens=1000,
-    model=model_name
-)
-
-print(response.choices[0].message.content)
+    return response.choices[0].message.content
