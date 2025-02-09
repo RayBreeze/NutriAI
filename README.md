@@ -9,13 +9,32 @@
 ## 🚀 Live Demo
 Try NutriAI now: [Click here](https://nutriai-ru7v.onrender.com/)
 
+## 💫 Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript
+  - Modern Glass-morphism UI
+  - Responsive Design
+  - Animated Components
+  - Interactive Elements
+
+- **Backend**: Python, Streamlit
+  - Real-time Chat Interface
+  - Session Management
+  - AI Integration
+
 ## ✨ Features
 
-- 🤖 AI-powered nutritional advice
-- 💬 Real-time chat interface
-- 📊 Science-backed recommendations
-- 🔒 Privacy-focused
-- 🌐 Available 24/7
+### AI Chatbot
+- 🤖 Intelligent nutrition advice
+- 💬 Natural conversation flow
+- 📊 Personalized recommendations
+- 🔄 Session persistence
+
+### Modern UI
+- 🎨 Glass-morphism design
+- ✨ Smooth animations
+- 📱 Fully responsive
+- 🌓 High contrast accessibility
 
 ## 🛠️ Installation
 
@@ -30,47 +49,22 @@ cd NutriAI
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file with your Azure AI credentials
-```env
-GITHUB_TOKEN=your_azure_ai_token
-```
-
-4. Run the application
+3. Start the application
 ```bash
 streamlit run NutriAI_bot.py
 ```
 
-## 💡 How It Works
+## 🏗️ Project Structure
 
-1. **User Input & Analysis**
-   - Enter your dietary preferences
-   - Share health goals
-   - Input current nutrition data
-
-2. **AI Processing**
-   - Analysis using verified databases
-   - FDA, WHO, USDA data integration
-   - Real-time personalized recommendations
-
-3. **Smart Monitoring**
-   - Continuous optimization
-   - Feedback-based improvements
-   - Pattern recognition
-
-## 🎯 Use Cases
-
-- 🍎 Get personalized diet plans
-- ❓ Ask nutrition-related questions
-- 📋 Check food nutritional values
-- 💪 Receive workout dietary advice
-- 🥗 Get meal suggestions
-
-## 🔒 Privacy & Security
-
-- GDPR compliant
-- HIPAA standards
-- Secure data handling
-- No personal data storage
+```
+NutriAI/
+├── static/
+│   ├── style.css      # Modern UI styling
+│   └── script.js      # Interactive features
+├── NutriAI_bot.py     # Streamlit application
+├── index.html         # Landing page
+└── README.md         # Documentation
+```
 
 ## 👥 Team
 
