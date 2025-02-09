@@ -81,25 +81,6 @@ Government College of Engineering and Ceramic Technology, Kolkata
 
 [MIT License](LICENSE) - feel free to use this project for your own purposes
 
-## 🤝 Contributing
-
-Contributions are always welcome! Please read our [contributing guidelines](CONTRIBUTING.md) first.
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a pull request
-
-## 💬 Support
-
-For support or queries, reach out to us through:
-- Create an issue
-- Email: your.email@example.com
-- Discord: [Join our community](your-discord-link)
-
----
-
 <p align="center">
   Made with ❤️ by Stack UnderFlow
 </p>
