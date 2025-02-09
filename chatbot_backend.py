@@ -1,4 +1,8 @@
 import os
+import importlib.util
+
+if importlib.util.find_spec("azure.ai.inference") is None:
+    os.system("pip install azure-ai-inference")
 from azure.ai.inference import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
