@@ -9,7 +9,7 @@ from azure.core.credentials import AzureKeyCredential
 from dotenv import load_dotenv
 load_dotenv()
 endpoint = "https://models.inference.ai.azure.com"
-model_name = "gpt-4o"
+model_name = "gpt-4o-mini"
 token = os.getenv("GITHUB_TOKEN")
 
 client = ChatCompletionsClient(
