@@ -16,16 +16,21 @@ client = ChatCompletionsClient(
     endpoint=endpoint,
     credential=AzureKeyCredential(token),
 )
-def get_nutrition_response(user_prompt):
-    response = client.complete(
-        messages=[
-            SystemMessage(content="Your name is NutriAI. An AI based Nutritionist who will response only on nutritional based queries. Be happy and Cheerful. Any other query will not be treated..."),
-            UserMessage(content=user_prompt),
-        ],
-        temperature=1.0,
-        top_p=1.0,
-        max_tokens=1000,
-        model=model_name
-    )
 
-    return response.choices[0].message.content
+def get_nutrition_response(user_prompt):
+    try:
+        response = client.complete(
+            messages=[
+                SystemMessage(content="Your name is NutriAI. An AI based Nutritionist who will response only on nutritional based queries. Be happy and Cheerful. Any other query will not be treated..."),
+                UserMessage(content=user_prompt),
+            ],
+            temperature=1.0,
+            top_p=1.0,
+            max_tokens=1000,
+            model=model_name
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        # Log the error if needed
+        print(f"Error: {e}")
+        return "Something went wrong 🤧"
