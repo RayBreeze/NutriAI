@@ -40,7 +40,7 @@ Try NutriAI now: [Click here](https://nutriai-ru7v.onrender.com/)
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/NutriAI.git
+git clone https://github.com/RayBreeze/NutriAI.git
 cd NutriAI
 ```
 
